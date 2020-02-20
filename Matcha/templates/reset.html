@@ -1,0 +1,22 @@
+<html lang="en">
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ex.css') }}">
+    </head>
+    <body>
+        {% if message %}
+            <p>{{ message }}</p>
+        {% endif %} 
+        <div class="form-area">
+            <h2>Register to Matcha</h2>
+            <form action="" method="POST">
+                <p>Password:</p>
+                <input type="password" name="password" placeholder="Enter your password">
+                <p>Confirm Password</p>
+                <input type="password" name="confirmpassword" placeholder="Confirm password">
+                <input type="submit" name="reset_request" value="Reset password">
+                <p>Aready have an account? <a href="{{ url_for('login') }}"> LOGIN HERE</a> </p>
+            </form>
+        </div>
+    </body>
+</html>

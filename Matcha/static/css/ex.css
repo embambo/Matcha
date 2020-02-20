@@ -1,0 +1,88 @@
+body{ 
+    padding: 0;
+    margin: 0;
+    background-image: url(https://www.itl.cat/pics/b/19/191926_hd-wallpapers-download-love.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    font-family: Tahoma, sans-serif;
+}
+/*.bg { 
+        background-image: url(https://i.pinimg.com/originals/7a/60/bc/7a60bc0ce22863afefeff3fdc463fce7.jpg);
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}*/
+.form-area{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    box-sizing: border-box;
+    background: rgb(0,0,0,0.5);
+    padding: 50px;
+}
+h2 {
+    
+    color: #ffffff;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.form-area p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+.form-area input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-area input[type=text], 
+.form-area input[type=password],
+.form-area input[type=email]{
+border: none;
+border-bottom: 1px solid #ffffff;
+background-color: transparent;
+outline: none;
+height: 40px;
+color: #ffffff;
+display: 16px;
+}
+::placeholder{
+    color: #ffffff;
+}
+.form-area input[type=submit]{
+    border: none;
+    height: 40px;
+    outline: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.form-area input[type=submit]:hover{
+    background-color: purple;
+    color: #ffffff;
+}
+.form-area a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+p{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
